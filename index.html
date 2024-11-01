@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vivek_Portfolio</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://kit.fontawesome.com/ae2d495f5f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- <h1>JAI GURU JI</h1> -->
+  <!-- header -->
+  <div id="header">
+    <div class="container">
+      <nav>
+        <h3 class="logo"><span class="logo-first">V</span>ivek</h3>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openMenu()" ></i>
+      </nav>
+      <div class="header-text">
+        <p>UI/React Developer</p>
+        <h1>Hi, I'm <span>Vivek</span> From Haryana.</h1>
+      </div>
+    </div>
+  </div>
+  <!-- --------about------- -->
+  <div id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="/images/user.png" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitle">About Me</h1>
+          <p class="desc"> I am skilled Web Developer with 1.5 years of experience in front-end development,
+            specializing in HTML, CSS,
+            JavaScript, and React. Proficient in converting designs from Figma and Adobe Photoshop to responsive and
+            accessible web pages. Seeking opportunities to leverage my technical skills and contribute to the success of
+            an organization while continuing to grow and learn.
+          </p>
+          <div>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experiance</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI</span> <br> Designation Web Developer</li>
+                <li><span>Web Development</span> <br> Designation React Developer</li>
+                <li><span>Full Stack</span> <br> Designation Mern Stack Developer</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Jan,2024-Current</span>
+                  <br> Web Developer and Mern Stack
+                  <br> Company : Bfox Pvt Lmt Mohali
+                </li>
+                <li><span>April2023-October,2023</span> <br> Internship Web Development
+                  <br>Company : Rw Infotech Pvt Lmt Mohali
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2023</span> <br> Online Course in React.js</li>
+                <li><span>2011</span> <br> Graduation - Bachelor of Science in Information Technology (B.Sc. IT)</li>
+                <li><span>2007</span> <br>Senior Secondary School (12th) </li>
+                <li><span>2004</span> <br> Matriculation (10th)</li>
+              </ul>
+            </div>
+
+          </div>
+
+
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- service -->
+  <div id="services">
+    <div class="container">
+      <h1 class="subtitle">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Desigin</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam iste illo qui repellat, praesentium
+            laboriosam.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <h6><i class="fa-solid fa-crop"></i>
+            <i class="fa-brands fa-react"></i>
+          </h6>
+          <h2>UI Desigin with React </h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam iste illo qui repellat, praesentium
+            laboriosam.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Desiging</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam iste illo qui repellat, praesentium
+            laboriosam.</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <!-- portfolio -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="subtitle">My Work</h1>
+      <div class="work-list">
+
+        <div class="work">
+          <img src="images/work-1.png" alt="">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>The app connects you to the taleanted people around the world. Download it from play store. </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.png" alt="">
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>The app connects you to the taleanted people around the world. Download it from play store. </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.png" alt="">
+          <div class="layer">
+            <h3>Online Shoping App</h3>
+            <p>The app connects you to the taleanted people around the world. Download it from play store. </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+<!-- contact -->
+ <div id="contact" class="contact">
+  <div class="container">
+    <div class="row">
+    <div class="left">
+      <h1 class="subtitle">Contact Me</h1>
+      <p class="mail"><span><i class="fa-solid fa-envelope"></i></span><span>jollyvivek19@gmail.com</span></p>
+      <p class="phone"><span><i class="fa-solid fa-phone"></i></span> <span>9541093299</span></p>
+      <div class="social-icon">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+      <a href="/images/Vivek_Cv.pdf" class="cv-download btn" download>Download CV</a>
+    </div>
+    <div class="right">
+      <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" >
+        <input type="hidden" name="access_key" value="b41818b4-ce4d-4755-ac6b-4e4fe66e1c33" />
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <input type="text" name="Phone" placeholder="Phone No" required>
+        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit" class="submit-btn ">Submit</button>
+      </form>
+      <div id="responseMessage"></div>
+    </div>
+    </div>
+  </div>
+  <!-- copywirght -->
+  <div class="copywirght">
+    <p>Copyright <span>&#169;</span> Vivek, Made with <i class="fa-solid fa-heart"></i> by Vivek Jolly</p>
+  </div>
+ </div>
+
+
+
+
+</body>
+<script src="/script.js"></script>
+
+</html>
